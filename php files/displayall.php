@@ -9,6 +9,7 @@ if ($conn)
     echo 'unable to connect';
 
     //4. Git flow branch
+    //5. Every ticket creates a new change & this is not reflected in the develop branch
 $query = 'SELECT * 
              FROM movies';
 
