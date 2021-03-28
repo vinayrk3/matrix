@@ -3,15 +3,12 @@ $conn = mysqli_connect('localhost', 'root', '', 'temp2db');
 if ($conn)
 
     //1. to check if the database is connected
-=======
-    //to check if the database is connected
-
     echo 'Db connected<br>';
     //comment disappeared
 else
     //2. Display unable to connect if unable to connect to a database
     echo 'unable to connect';
-
+    //3. cleared all dashed lines and additional comments
 $query = 'SELECT * 
              FROM movies';
 
