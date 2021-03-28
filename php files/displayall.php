@@ -11,6 +11,7 @@ if ($conn)
     //4. Git flow branch
     //5. Every ticket creates a new change & this is not reflected in the develop branch
     //6. Merged ticket 5WBXT into develop to reflect all the changes. Also creating 6WBXT to check for direct push from local repo to remote repo and PR testing
+    //7. Testing and noting the steps in 7WBXT
 $query = 'SELECT * 
              FROM movies';
 
