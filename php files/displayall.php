@@ -1,6 +1,7 @@
 <?php
 $conn = mysqli_connect('localhost', 'root', '', 'temp2db');
 if ($conn)
+    //to check if the database is connected
     echo 'Db connected<br>';
 else
     echo 'unable to connect';
