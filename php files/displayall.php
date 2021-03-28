@@ -7,6 +7,7 @@ if ($conn)
     //to check if the database is connected
 
     echo 'Db connected<br>';
+    //comment disappeared
 else
     //2. Display unable to connect if unable to connect to a database
     echo 'unable to connect';
