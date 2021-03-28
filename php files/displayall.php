@@ -2,6 +2,7 @@
 $conn = mysqli_connect('localhost', 'root', '', 'temp2db');
 if ($conn)
     echo 'Db connected<br>';
+    //comment disappeared
 else
     echo 'unable to connect';
 
