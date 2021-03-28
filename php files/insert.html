@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert Movie</title>
+</head>
+<body>
+    <h5>Enter the movie details</h5>
+    <form action="insert.php" method="POST">
+        <label>Enter the movie ID number</label>
+        <input type = "text", name= "ID", value=""><br>
+        <label>Enter the Movie Title</label>
+        <input type="text" name="title", value=""><br>
+        <label>Enter the Year of Release</label>
+        <input type="text" name="year" value="">
+        <label>Enter the poster name</label>
+        <input type="text" name="poster", value=""><br>
+        <labe>Enter the synopsis</labe>
+        <input type="text", name="synopsis", value=""><br>
+        <input type="submit" name="submitMovie" value="ADD MOVIE">
+    </form>
+    
+    <form action="insertcategory.php" method="POST">
+        <h5>Enter the Category of movie</h5>
+        <label>Enter the Category ID</label>
+        <input type="text" name="catId" value=""><br>
+        <label>Enter the Movie ID</label>
+        <input type="text" name="category" value=""><br>
+        <input type="submit" name="submitCat" value="ADD Category">
+        
+    </form>
+        
+        
+   
+
+</body>
+</html>
